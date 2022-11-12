@@ -2,6 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.janzelaznog.VideoSession</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>social</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>twitter</string>
+		<string>fb</string>
+		<string>vnd.youtube</string>
+		<string>instagram</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Font Awesome 6 Free-Solid-900.otf</string>
+		<string>Font Awesome 6 Free-Regular-400.otf</string>
+		<string>Font Awesome 6 Brands-Regular-400.otf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -13,6 +13,10 @@
 		3D3CE5D4291DB9C900401B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5D2291DB9C900401B35 /* Main.storyboard */; };
 		3D3CE5D6291DB9CB00401B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5D5291DB9CB00401B35 /* Assets.xcassets */; };
 		3D3CE5D9291DB9CB00401B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5D7291DB9CB00401B35 /* LaunchScreen.storyboard */; };
+		3D3CE5E2291DBB9000401B35 /* FontAwesome in Frameworks */ = {isa = PBXBuildFile; productRef = 3D3CE5E1291DBB9000401B35 /* FontAwesome */; };
+		3D3CE5E8291EA85800401B35 /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5E5291EA85700401B35 /* Font Awesome 6 Brands-Regular-400.otf */; };
+		3D3CE5E9291EA85800401B35 /* Font Awesome 6 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5E6291EA85700401B35 /* Font Awesome 6 Free-Regular-400.otf */; };
+		3D3CE5EA291EA85800401B35 /* Font Awesome 6 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3CE5E7291EA85700401B35 /* Font Awesome 6 Free-Solid-900.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		3D3CE5D5291DB9CB00401B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D3CE5D8291DB9CB00401B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D3CE5DA291DB9CB00401B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3CE5E5291EA85700401B35 /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		3D3CE5E6291EA85700401B35 /* Font Awesome 6 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		3D3CE5E7291EA85700401B35 /* Font Awesome 6 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Free-Solid-900.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3CE5E2291DBB9000401B35 /* FontAwesome in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +64,9 @@
 		3D3CE5CB291DB9C900401B35 /* Social */ = {
 			isa = PBXGroup;
 			children = (
+				3D3CE5E5291EA85700401B35 /* Font Awesome 6 Brands-Regular-400.otf */,
+				3D3CE5E6291EA85700401B35 /* Font Awesome 6 Free-Regular-400.otf */,
+				3D3CE5E7291EA85700401B35 /* Font Awesome 6 Free-Solid-900.otf */,
 				3D3CE5CC291DB9C900401B35 /* AppDelegate.swift */,
 				3D3CE5CE291DB9C900401B35 /* SceneDelegate.swift */,
 				3D3CE5D0291DB9C900401B35 /* ViewController.swift */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = Social;
+			packageProductDependencies = (
+				3D3CE5E1291DBB9000401B35 /* FontAwesome */,
+			);
 			productName = Social;
 			productReference = 3D3CE5C9291DB9C900401B35 /* Social.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 3D3CE5C0291DB9C900401B35;
+			packageReferences = (
+				3D3CE5E0291DBB9000401B35 /* XCRemoteSwiftPackageReference "FontAwesome" */,
+			);
 			productRefGroup = 3D3CE5CA291DB9C900401B35 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3CE5EA291EA85800401B35 /* Font Awesome 6 Free-Solid-900.otf in Resources */,
+				3D3CE5E9291EA85800401B35 /* Font Awesome 6 Free-Regular-400.otf in Resources */,
+				3D3CE5E8291EA85800401B35 /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
 				3D3CE5D9291DB9CB00401B35 /* LaunchScreen.storyboard in Resources */,
 				3D3CE5D6291DB9CB00401B35 /* Assets.xcassets in Resources */,
 				3D3CE5D4291DB9C900401B35 /* Main.storyboard in Resources */,
@@ -295,12 +315,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.Social;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.VideoSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,12 +344,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.Social;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janzelaznog.VideoSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D3CE5E0291DBB9000401B35 /* XCRemoteSwiftPackageReference "FontAwesome" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thii/FontAwesome.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D3CE5E1291DBB9000401B35 /* FontAwesome */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D3CE5E0291DBB9000401B35 /* XCRemoteSwiftPackageReference "FontAwesome" */;
+			productName = FontAwesome;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D3CE5C1291DB9C900401B35 /* Project object */;
 }
